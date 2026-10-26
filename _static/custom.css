@@ -90,3 +90,6 @@ section#victor-m-zavala .sd-container-fluid { margin: 0.6rem 0 0.4rem; }
 /* The right-hand "Contents" panel adds nothing on the landing page. */
 body:has(section#victor-m-zavala) .bd-sidebar-secondary { display: none; }
 body:has(section#victor-m-zavala) .bd-article-container { max-width: 64rem; }
+
+/* No "#" permalink next to the name on the landing page. */
+section#victor-m-zavala > h1 > a.headerlink { display: none; }
