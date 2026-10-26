@@ -1,3 +1,6 @@
+/* Slightly smaller type across the site (everything is sized in rem). */
+html { font-size: 14.5px; }
+
 /* UW-Madison red theme: replaces the default teal links, yellow hover
    color and green "tip" boxes with UW red (#c5050c) and soft red tints. */
 
