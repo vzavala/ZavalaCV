@@ -4,9 +4,7 @@
 
 [Email](mailto:victor.zavala@wisc.edu) · [Lab website](http://zavalab.engr.wisc.edu) · [Google Scholar](https://scholar.google.com/citations?user=a3mvK3gAAAAJ) · [ORCID](https://orcid.org/0000-0002-5744-7378) · **[Full CV (PDF)](https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91)**
 
-:::{tip}
 This site is a navigator for my curriculum vitae: the full CV is long, so it is split into short pages. Pick a section below, use the sidebar, or search (press `/`).
-:::
 
 ::::{grid} 1 2 3 3
 :gutter: 2

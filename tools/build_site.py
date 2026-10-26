@@ -233,6 +233,8 @@ def format_entry(e):
     parts.append("%s." % e.get("year", "n.d."))
     if e.get("doi"):
         parts.append("[\\[doi\\]](https://doi.org/%s)" % e["doi"])
+    if e.get("url"):  # the bib's url field holds the preprint (arXiv/chemRxiv)
+        parts.append("[\\[preprint\\]](%s)" % e["url"])
     return " ".join(parts)
 
 
@@ -424,10 +426,9 @@ def intro_page(sec, counts):
                  "[Google Scholar](%s)" % SCHOLAR_PROFILE,
                  "[ORCID](%s)" % ORCID,
                  "**[Full CV (PDF)](%s)**" % CV_PDF_URL])), "",
-             ":::{tip}",
              "This site is a navigator for my curriculum vitae: the full CV is long, so it "
              "is split into short pages. Pick a section below, use the sidebar, or search "
-             "(press `/`).", ":::", "",
+             "(press `/`).", "",
              "::::{grid} 1 2 3 3", ":gutter: 2", ""]
     for title, doc, desc in counts:
         lines += [":::{grid-item-card} " + title, ":link: " + doc, ":link-type: doc",
