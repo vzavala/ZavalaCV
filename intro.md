@@ -19,7 +19,7 @@ Prefer a single document? {download}`Download the full CV (PDF) <files/Zavala_Vi
 | [Education and Appointments](background.md) | Degrees and positions at UW-Madison, Argonne and in industry |
 | [Honors and Awards](honors.md) | Awards, fellowships and named lectures |
 | [Research Funding](funding.md) | Current and past grants |
-| [Journal Publications](publications/journal.md) | 220 articles, grouped by year |
+| [Journal Publications](publications/journal.md) | 217 articles, grouped by year |
 | [Conference Publications](publications/conference.md) | 68 peer-reviewed conference papers |
 | [Books and Book Chapters](publications/books.md) | 8 books and chapters |
 | [Patents and Industry](patents-industry.md) | Patents and industry collaborators |
