@@ -416,21 +416,23 @@ def intro_page(sec, counts):
     email = re.search(r"<([^>]*@[^>]*)>", " ".join(head))
     site = re.search(r"Website:\s*<([^>]*)>", " ".join(head))
     today = datetime.date.today().strftime("%B %-d, %Y")
-    lines = ["# " + name, ""]
-    lines += ["**" + title_lines[0] + "**  "] + [l + "  " for l in title_lines[1:]]
-    lines += ["", " · ".join(filter(None, [
-        "[Email](mailto:%s)" % email.group(1) if email else "",
-        "[Lab website](%s)" % site.group(1) if site else "",
-        "[Google Scholar](%s)" % SCHOLAR_PROFILE,
-        "[ORCID](%s)" % ORCID])), "",
-        "This site is a navigator for my curriculum vitae. The full CV is long, so "
-        "it is split here into short pages that you can browse from the sidebar "
-        "or search (press `/` or use the search box).", "",
-        ":::{tip}", "Prefer a single document? [Download the full CV (PDF)](%s)."
-        % CV_PDF_URL, ":::", "",
-        "## What's inside", ""]
-    lines += table(["Section", "What you'll find"], counts)
-    lines += ["", "*Generated from the LaTeX CV on %s.*" % today, ""]
+    lines = ["# " + name, "",
+             "**%s** · %s" % (title_lines[0], " · ".join(title_lines[1:])), "",
+             " · ".join(filter(None, [
+                 "[Email](mailto:%s)" % email.group(1) if email else "",
+                 "[Lab website](%s)" % site.group(1) if site else "",
+                 "[Google Scholar](%s)" % SCHOLAR_PROFILE,
+                 "[ORCID](%s)" % ORCID,
+                 "**[Full CV (PDF)](%s)**" % CV_PDF_URL])), "",
+             ":::{tip}",
+             "This site is a navigator for my curriculum vitae: the full CV is long, so it "
+             "is split into short pages. Pick a section below, use the sidebar, or search "
+             "(press `/`).", ":::", "",
+             "::::{grid} 1 2 3 3", ":gutter: 2", ""]
+    for title, doc, desc in counts:
+        lines += [":::{grid-item-card} " + title, ":link: " + doc, ":link-type: doc",
+                  ":class-card: landing-card", "", desc, ":::", ""]
+    lines += ["::::", "", "*Generated from the LaTeX CV on %s.*" % today, ""]
     return "\n".join(lines)
 
 
@@ -497,18 +499,18 @@ def main():
     mentoring = parse_items(sec["RESEARCH MENTORING"])
     n_mentees = sum(len(n["children"]) for n in mentoring)
     counts = [
-        ["[Education and Appointments](background.md)", "Degrees and positions at UW-Madison, Argonne and in industry"],
-        ["[Honors and Awards](honors.md)", "Awards, fellowships and named lectures"],
-        ["[Research Funding](funding.md)", "Current and past grants"],
-        ["[Journal Publications](publications/journal.md)", "%d articles, grouped by year" % len(journal)],
-        ["[Conference Publications](publications/conference.md)", "%d peer-reviewed conference papers" % len(conference)],
-        ["[Books and Book Chapters](publications/books.md)", "%d books and chapters" % len(books)],
-        ["[Patents and Industry](patents-industry.md)", "Patents and industry collaborators"],
-        ["[Software](software.md)", "Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl"],
-        ["[Research Mentoring](mentoring.md)", "%d postdocs and graduate students" % n_mentees],
-        ["[Teaching](teaching.md)", "Courses taught at UW-Madison"],
-        ["[Community Activities](service.md)", "Editorial boards, leadership and conference organization"],
-        ["[Invited Talks](talks.md)", "Seminars and lectures by year"],
+        ["Education and Appointments", "background", "Degrees and positions at UW-Madison, Argonne and in industry"],
+        ["Honors and Awards", "honors", "Awards, fellowships and named lectures"],
+        ["Research Funding", "funding", "Current and past grants"],
+        ["Journal Publications", "publications/journal", "%d articles, grouped by year" % len(journal)],
+        ["Conference Publications", "publications/conference", "%d peer-reviewed conference papers" % len(conference)],
+        ["Books and Book Chapters", "publications/books", "%d books and chapters" % len(books)],
+        ["Patents and Industry", "patents-industry", "Patents and industry collaborators"],
+        ["Software", "software", "Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl"],
+        ["Research Mentoring", "mentoring", "%d postdocs and graduate students" % n_mentees],
+        ["Teaching", "teaching", "Courses taught at UW-Madison"],
+        ["Community Activities", "service", "Editorial boards, leadership and conference organization"],
+        ["Invited Talks", "talks", "Seminars and lectures by year"],
     ]
     pages["intro.md"] = intro_page(sec, counts)
 

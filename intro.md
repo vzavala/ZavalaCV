@@ -1,32 +1,112 @@
 # Victor M. Zavala
 
-**Baldovin-DaPra Professor**  
-Department of Chemical and Biological Engineering  
-University of Wisconsin-Madison  
+**Baldovin-DaPra Professor** · Department of Chemical and Biological Engineering · University of Wisconsin-Madison
 
-[Email](mailto:victor.zavala@wisc.edu) · [Lab website](http://zavalab.engr.wisc.edu) · [Google Scholar](https://scholar.google.com/citations?user=a3mvK3gAAAAJ) · [ORCID](https://orcid.org/0000-0002-5744-7378)
-
-This site is a navigator for my curriculum vitae. The full CV is long, so it is split here into short pages that you can browse from the sidebar or search (press `/` or use the search box).
+[Email](mailto:victor.zavala@wisc.edu) · [Lab website](http://zavalab.engr.wisc.edu) · [Google Scholar](https://scholar.google.com/citations?user=a3mvK3gAAAAJ) · [ORCID](https://orcid.org/0000-0002-5744-7378) · **[Full CV (PDF)](https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91)**
 
 :::{tip}
-Prefer a single document? [Download the full CV (PDF)](https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91).
+This site is a navigator for my curriculum vitae: the full CV is long, so it is split into short pages. Pick a section below, use the sidebar, or search (press `/`).
 :::
 
-## What's inside
+::::{grid} 1 2 3 3
+:gutter: 2
 
-| Section | What you'll find |
-|---|---|
-| [Education and Appointments](background.md) | Degrees and positions at UW-Madison, Argonne and in industry |
-| [Honors and Awards](honors.md) | Awards, fellowships and named lectures |
-| [Research Funding](funding.md) | Current and past grants |
-| [Journal Publications](publications/journal.md) | 217 articles, grouped by year |
-| [Conference Publications](publications/conference.md) | 68 peer-reviewed conference papers |
-| [Books and Book Chapters](publications/books.md) | 8 books and chapters |
-| [Patents and Industry](patents-industry.md) | Patents and industry collaborators |
-| [Software](software.md) | Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl |
-| [Research Mentoring](mentoring.md) | 46 postdocs and graduate students |
-| [Teaching](teaching.md) | Courses taught at UW-Madison |
-| [Community Activities](service.md) | Editorial boards, leadership and conference organization |
-| [Invited Talks](talks.md) | Seminars and lectures by year |
+:::{grid-item-card} Education and Appointments
+:link: background
+:link-type: doc
+:class-card: landing-card
+
+Degrees and positions at UW-Madison, Argonne and in industry
+:::
+
+:::{grid-item-card} Honors and Awards
+:link: honors
+:link-type: doc
+:class-card: landing-card
+
+Awards, fellowships and named lectures
+:::
+
+:::{grid-item-card} Research Funding
+:link: funding
+:link-type: doc
+:class-card: landing-card
+
+Current and past grants
+:::
+
+:::{grid-item-card} Journal Publications
+:link: publications/journal
+:link-type: doc
+:class-card: landing-card
+
+217 articles, grouped by year
+:::
+
+:::{grid-item-card} Conference Publications
+:link: publications/conference
+:link-type: doc
+:class-card: landing-card
+
+68 peer-reviewed conference papers
+:::
+
+:::{grid-item-card} Books and Book Chapters
+:link: publications/books
+:link-type: doc
+:class-card: landing-card
+
+8 books and chapters
+:::
+
+:::{grid-item-card} Patents and Industry
+:link: patents-industry
+:link-type: doc
+:class-card: landing-card
+
+Patents and industry collaborators
+:::
+
+:::{grid-item-card} Software
+:link: software
+:link-type: doc
+:class-card: landing-card
+
+Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl
+:::
+
+:::{grid-item-card} Research Mentoring
+:link: mentoring
+:link-type: doc
+:class-card: landing-card
+
+46 postdocs and graduate students
+:::
+
+:::{grid-item-card} Teaching
+:link: teaching
+:link-type: doc
+:class-card: landing-card
+
+Courses taught at UW-Madison
+:::
+
+:::{grid-item-card} Community Activities
+:link: service
+:link-type: doc
+:class-card: landing-card
+
+Editorial boards, leadership and conference organization
+:::
+
+:::{grid-item-card} Invited Talks
+:link: talks
+:link-type: doc
+:class-card: landing-card
+
+Seminars and lectures by year
+:::
+
+::::
 
 *Generated from the LaTeX CV on October 26, 2026.*

@@ -1,0 +1,92 @@
+/* UW-Madison red theme: replaces the default teal links, yellow hover
+   color and green "tip" boxes with UW red (#c5050c) and soft red tints. */
+
+html[data-theme="light"] {
+  --uw-red: #c5050c;
+  --uw-red-dark: #9b0000;
+  --uw-red-tint: #fbecec;
+  --uw-red-tint-strong: #f6d6d7;
+
+  --pst-color-primary: var(--uw-red);
+  --pst-color-primary-bg: var(--uw-red-tint);
+  --pst-color-primary-highlight: var(--uw-red-dark);
+  --pst-color-secondary: var(--uw-red-dark);
+  --pst-color-secondary-bg: var(--uw-red-tint);
+  --pst-color-secondary-highlight: var(--uw-red-dark);
+  --pst-color-link: var(--uw-red);
+  --pst-color-link-hover: var(--uw-red-dark);
+  --pst-color-accent: var(--uw-red);
+  --pst-color-target: var(--uw-red-tint-strong);
+  --pst-color-success: var(--uw-red);
+  --pst-color-success-bg: var(--uw-red-tint);
+  --pst-color-success-highlight: var(--uw-red-dark);
+}
+
+html[data-theme="dark"] {
+  --uw-red: #f0595e;
+  --uw-red-dark: #ff8a8e;
+  --uw-red-tint: #3a1416;
+  --uw-red-tint-strong: #4a1a1c;
+
+  --pst-color-primary: var(--uw-red);
+  --pst-color-primary-bg: var(--uw-red-tint);
+  --pst-color-primary-highlight: var(--uw-red-dark);
+  --pst-color-secondary: var(--uw-red-dark);
+  --pst-color-secondary-bg: var(--uw-red-tint);
+  --pst-color-secondary-highlight: var(--uw-red-dark);
+  --pst-color-link: var(--uw-red);
+  --pst-color-link-hover: var(--uw-red-dark);
+  --pst-color-accent: var(--uw-red);
+  --pst-color-target: var(--uw-red-tint-strong);
+  --pst-color-success: var(--uw-red);
+  --pst-color-success-bg: var(--uw-red-tint);
+  --pst-color-success-highlight: var(--uw-red-dark);
+}
+
+/* Tip box: diffused red background with a red rule instead of green. */
+.admonition.tip,
+div.admonition.tip {
+  border-color: var(--uw-red);
+  background-color: var(--uw-red-tint);
+}
+.admonition.tip > .admonition-title {
+  background-color: var(--uw-red-tint-strong);
+}
+.admonition.tip > .admonition-title::after,
+.admonition.tip > .admonition-title::before {
+  color: var(--uw-red);
+}
+
+/* Table header rule and the yellow heading flash when following a year link. */
+table.table thead,
+.table thead {
+  border-bottom-color: var(--uw-red);
+}
+:target,
+h2:target {
+  background-color: var(--uw-red-tint);
+}
+
+/* Compact landing page so the whole overview fits on one screen.
+   Scoped to the home page's top-level section. */
+section#victor-m-zavala { font-size: 0.9rem; line-height: 1.4; }
+section#victor-m-zavala > h1 { font-size: 2rem; margin: 0 0 0.4rem; }
+section#victor-m-zavala p { margin-bottom: 0.45rem; }
+section#victor-m-zavala .admonition { margin: 0.5rem 0; padding: 0.35rem 0.8rem 0.4rem; }
+section#victor-m-zavala .admonition > .admonition-title { margin: -0.35rem -0.8rem 0.3rem; padding: 0.3rem 0.8rem 0.3rem 2.2rem; }
+section#victor-m-zavala .admonition p { margin: 0; }
+section#victor-m-zavala .sd-container-fluid { margin: 0.6rem 0 0.4rem; }
+
+/* Section cards on the landing page. */
+.landing-card { border: 1px solid var(--pst-color-border); border-top: 3px solid var(--uw-red);
+  border-radius: 6px; transition: background-color 0.15s, box-shadow 0.15s; }
+.landing-card .sd-card-body { padding: 0.45rem 0.7rem 0.5rem; }
+.landing-card .sd-card-title { font-size: 0.95rem; font-weight: 600; color: var(--uw-red);
+  margin-bottom: 0.15rem; }
+.landing-card .sd-card-text { font-size: 0.82rem; line-height: 1.3; margin: 0;
+  color: var(--pst-color-text-muted); }
+.landing-card:hover { background-color: var(--uw-red-tint); box-shadow: none; }
+
+/* The right-hand "Contents" panel adds nothing on the landing page. */
+body:has(section#victor-m-zavala) .bd-sidebar-secondary { display: none; }
+body:has(section#victor-m-zavala) .bd-article-container { max-width: 64rem; }
