@@ -2,7 +2,7 @@
 
 Peer-reviewed conference papers, newest first. Each title links to a Google Scholar search for the paper.
 
-**68 publications.** Jump to a year: {ref}`2025 <conference-2025>` · {ref}`2024 <conference-2024>` · {ref}`2023 <conference-2023>` · {ref}`2022 <conference-2022>` · {ref}`2021 <conference-2021>` · {ref}`2020 <conference-2020>` · {ref}`2019 <conference-2019>` · {ref}`2018 <conference-2018>` · {ref}`2017 <conference-2017>` · {ref}`2016 <conference-2016>` · {ref}`2015 <conference-2015>` · {ref}`2014 <conference-2014>` · {ref}`2013 <conference-2013>` · {ref}`2012 <conference-2012>` · {ref}`2011 <conference-2011>` · {ref}`2010 <conference-2010>` · {ref}`2009 <conference-2009>` · {ref}`2007 <conference-2007>` · {ref}`2006 <conference-2006>`
+**71 publications.** Jump to a year: {ref}`2025 <conference-2025>` · {ref}`2024 <conference-2024>` · {ref}`2023 <conference-2023>` · {ref}`2022 <conference-2022>` · {ref}`2021 <conference-2021>` · {ref}`2020 <conference-2020>` · {ref}`2019 <conference-2019>` · {ref}`2018 <conference-2018>` · {ref}`2017 <conference-2017>` · {ref}`2016 <conference-2016>` · {ref}`2015 <conference-2015>` · {ref}`2014 <conference-2014>` · {ref}`2013 <conference-2013>` · {ref}`2012 <conference-2012>` · {ref}`2011 <conference-2011>` · {ref}`2010 <conference-2010>` · {ref}`2009 <conference-2009>` · {ref}`2007 <conference-2007>` · {ref}`2006 <conference-2006>`
 
 (conference-2025)=
 ## 2025 (1)
@@ -25,10 +25,12 @@ Peer-reviewed conference papers, newest first. Each title links to a Google Scho
 1. L.D. González, C. Mills, A.d.C. Munguía-López, and **V.M. Zavala**. [Sustainable Production of Fertilizers via Photosynthetic Recovery of Nutrients in Livestock Waste](https://scholar.google.com/scholar?q=%22Sustainable+Production+of+Fertilizers+via+Photosynthetic+Recovery+of+Nutrients+in+Livestock+Waste%22). *Proceedings of FOCAPD 2024*, 2024. [\[doi\]](https://doi.org/10.69997/sct.147417)
 
 (conference-2023)=
-## 2023 (4)
+## 2023 (6)
 
 1. L.D. González and **V.M. Zavala**. [Bayesian Optimization for Automatic Tuning of Model Predictive Controllers](https://scholar.google.com/scholar?q=%22Bayesian+Optimization+for+Automatic+Tuning+of+Model+Predictive+Controllers%22). *Proceedings of FOCAPO/CPC 2023*, 2023.
 1. D. Cole, S. Shin, F. Pacaud, **V.M. Zavala**, and M. Anitescu. [Exploiting GPU/SIMD Architectures for Solving Linear-Quadratic MPC Problems](https://scholar.google.com/scholar?q=%22Exploiting+GPU%2FSIMD+Architectures+for+Solving+Linear-Quadratic+MPC+Problems%22). *2023 American Control Conference (ACC)*, 3995–4000, 2023. [\[doi\]](https://doi.org/10.23919/acc55779.2023.10155791)
+1. A.d.C. Munguía-López, **V.M. Zavala**, and J.M. Ponce-Ortega. [Municipal Solid Waste Management Using a Coordinated Market Framework](https://scholar.google.com/scholar?q=%22Municipal+Solid+Waste+Management+Using+a+Coordinated+Market+Framework%22). *Proceedings of FOCAPO/CPC 2023*, 2023.
+1. W. Zhang and **V.M. Zavala**. [Pricing and Remunerating Load Shifting Flexibility in Electricity Markets](https://scholar.google.com/scholar?q=%22Pricing+and+Remunerating+Load+Shifting+Flexibility+in+Electricity+Markets%22). *Proceedings of FOCAPO/CPC 2023*, 2023.
 1. J. Ma, P.A. Tominac, and **V.M. Zavala**. [Techno-Economic Evaluation of Infrastructures for Thermochemical Upcycling of Plastic Waste](https://scholar.google.com/scholar?q=%22Techno-Economic+Evaluation+of+Infrastructures+for+Thermochemical+Upcycling+of+Plastic+Waste%22). *Proceedings of FOCAPO/CPC 2023*, 2023.
 1. A.J. Roman, S. Qin, J.C. Rodriguez, **V.M. Zavala**, and T.A. Osswald. [Viscoelastic behavior prediction of natural rubber blends via machine learning and its application for reverse engineering materials](https://scholar.google.com/scholar?q=%22Viscoelastic+behavior+prediction+of+natural+rubber+blends+via+machine+learning+and+its+application+for+reverse+engineering+materials%22). *AIP Conference Proceedings* 2884(1), 2023. [\[doi\]](https://doi.org/10.1063/5.0168411)
 
@@ -57,10 +59,11 @@ Peer-reviewed conference papers, newest first. Each title links to a Google Scho
 1. S. Shin, M. Anitescu, and **V.M. Zavala**. [Overlapping Schwarz Decomposition for Constrained Quadratic Programs](https://scholar.google.com/scholar?q=%22Overlapping+Schwarz+Decomposition+for+Constrained+Quadratic+Programs%22). *2020 59th IEEE Conference on Decision and Control (CDC)*, 3004–3009, 2020. [\[doi\]](https://doi.org/10.1109/cdc42340.2020.9304139)
 
 (conference-2019)=
-## 2019 (7)
+## 2019 (8)
 
 1. J. Tovar-Facio, Y. Cao, J.M. Ponce-Ortega, and **V.M. Zavala**. [A Chance-Constrained Nonlinear Programming Approach for Equipment Design Under Uncertainty](https://scholar.google.com/scholar?q=%22A+Chance-Constrained+Nonlinear+Programming+Approach+for+Equipment+Design+Under+Uncertainty%22). *Computer Aided Chemical Engineering* 46:997–1002, 2019. [\[doi\]](https://doi.org/10.1016/b978-0-12-818634-3.50167-3)
 1. S. Shin, T. Faulwasser, M. Zanon, and **V.M. Zavala**. [A Parallel Decomposition Scheme for Solving Long-Horizon Optimal Control Problems](https://scholar.google.com/scholar?q=%22A+Parallel+Decomposition+Scheme+for+Solving+Long-Horizon+Optimal+Control+Problems%22). *2019 IEEE 58th Conference on Decision and Control (CDC)*, 5264–5271, 2019. [\[doi\]](https://doi.org/10.1109/cdc40024.2019.9030139)
+1. Y. Shao and **V.M. Zavala**. [Electricity Markets Incentivize Technology Modularization](https://scholar.google.com/scholar?q=%22Electricity+Markets+Incentivize+Technology+Modularization%22). *Proceedings of Foundations of Computer-Aided Process Design (FOCAPD)*, 2019.
 1. A.M. Sampat and **V.M. Zavala**. [Fairness Measures for Decision-Making and Conflict Resolution](https://scholar.google.com/scholar?q=%22Fairness+Measures+for+Decision-Making+and+Conflict+Resolution%22). *Proceedings of Foundations of Computer-Aided Process Design (FOCAPD)*, 2019.
 1. S. Shin, A.D. Smith, S.J. Qin, and **V.M. Zavala**. [On the Convergence of the Dynamic Inner PCA Algorithm](https://scholar.google.com/scholar?q=%22On+the+Convergence+of+the+Dynamic+Inner+PCA+Algorithm%22). *Proceedings of Foundations of Process Analytics and Machine Learning (FOPAM)*, 2019.
 1. J. Jalving and **V.M. Zavala**. [Recent Advances in Graph-Based Abstractions for Modeling and Simulating Complex Systems](https://scholar.google.com/scholar?q=%22Recent+Advances+in+Graph-Based+Abstractions+for+Modeling+and+Simulating+Complex+Systems%22). *Computer Aided Chemical Engineering* 46:1063–1068, 2019. [\[doi\]](https://doi.org/10.1016/b978-0-12-818634-3.50178-8)

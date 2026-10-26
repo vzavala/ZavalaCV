@@ -40,7 +40,7 @@ Current and past grants
 :link-type: doc
 :class-card: landing-card
 
-217 articles, grouped by year
+218 articles, grouped by year
 :::
 
 :::{grid-item-card} Conference Publications
@@ -48,7 +48,7 @@ Current and past grants
 :link-type: doc
 :class-card: landing-card
 
-68 peer-reviewed conference papers
+71 peer-reviewed conference papers
 :::
 
 :::{grid-item-card} Books and Book Chapters
@@ -56,7 +56,15 @@ Current and past grants
 :link-type: doc
 :class-card: landing-card
 
-8 books and chapters
+10 books and chapters
+:::
+
+:::{grid-item-card} Technical Reports
+:link: publications/reports
+:link-type: doc
+:class-card: landing-card
+
+5 technical reports
 :::
 
 :::{grid-item-card} Patents and Industry
