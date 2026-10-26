@@ -216,8 +216,9 @@ def format_entry(e):
     title = tex2md(e.get("title", "")).rstrip(".")
     query = urllib.parse.quote_plus('"%s"' % re.sub(r"[*\u201c\u201d]", "", title))
     link_title = title.replace("[", "\\[").replace("]", "\\]")
+    authors = format_authors(e.get("author", "")).rstrip(".")
     parts = ["%s. [%s](https://scholar.google.com/scholar?q=%s)." % (
-        format_authors(e.get("author", "")), link_title, query)]
+        authors, link_title, query)]
     venue = tex2md(e.get("journal") or e.get("booktitle") or "")
     if e["_type"] == "book":
         venue = tex2md(e.get("publisher", ""))
