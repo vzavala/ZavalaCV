@@ -10,7 +10,6 @@ regenerated, so edit the CV (not the .md files) and rerun this script.
 """
 import datetime
 import re
-import shutil
 import sys
 import unicodedata
 import urllib.parse
@@ -21,11 +20,11 @@ DEFAULT_CV_DIR = (Path.home() / "Library/CloudStorage/Box-Box/ZAVALA_ADMIN/CV"
                   / "Zavala_CV_tex/CURRENT")
 TEX_NAME = "Zavala_Victor_cv.tex"
 BIB_NAME = "MyPublicationsvz.bib"
-PDF_NAME = "Zavala_Victor_cv.pdf"
 
 MY_NAME = "**V.M. Zavala**"
 SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=a3mvK3gAAAAJ"
 ORCID = "https://orcid.org/0000-0002-5744-7378"
+CV_PDF_URL = "https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91"  # Box link on the lab People page
 
 
 # ---------------------------------------------------------------- LaTeX text
@@ -427,8 +426,8 @@ def intro_page(sec, counts):
         "This site is a navigator for my curriculum vitae. The full CV is long, so "
         "it is split here into short pages that you can browse from the sidebar "
         "or search (press `/` or use the search box).", "",
-        ":::{tip}", "Prefer a single document? {download}`Download the full CV (PDF) "
-        "<files/%s>`." % PDF_NAME, ":::", "",
+        ":::{tip}", "Prefer a single document? [Download the full CV (PDF)](%s)."
+        % CV_PDF_URL, ":::", "",
         "## What's inside", ""]
     lines += table(["Section", "What you'll find"], counts)
     lines += ["", "*Generated from the LaTeX CV on %s.*" % today, ""]
@@ -518,8 +517,6 @@ def main():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text.rstrip() + "\n", encoding="utf-8")
     (ROOT / "_toc.yml").write_text(TOC, encoding="utf-8")
-    (ROOT / "files").mkdir(exist_ok=True)
-    shutil.copy2(cv_dir / PDF_NAME, ROOT / "files" / PDF_NAME)
     print("Wrote %d pages: %d journal, %d conference, %d book entries"
           % (len(pages), len(journal), len(conference), len(books)))
 

@@ -9,7 +9,7 @@ University of Wisconsin-Madison
 This site is a navigator for my curriculum vitae. The full CV is long, so it is split here into short pages that you can browse from the sidebar or search (press `/` or use the search box).
 
 :::{tip}
-Prefer a single document? {download}`Download the full CV (PDF) <files/Zavala_Victor_cv.pdf>`.
+Prefer a single document? [Download the full CV (PDF)](https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91).
 :::
 
 ## What's inside

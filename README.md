@@ -6,7 +6,7 @@ A browsable version of my curriculum vitae, split into short pages by section.
 
 ## Updating
 
-The pages are generated from the LaTeX CV (`Zavala_Victor_cv.tex`, `MyPublicationsvz.bib` and the compiled PDF). After editing and compiling the CV:
+The pages are generated from the LaTeX CV (`Zavala_Victor_cv.tex` and `MyPublicationsvz.bib`); the full PDF is linked from Box. After editing and compiling the CV:
 
 ```bash
 python tools/build_site.py          # regenerate the pages from the CV
