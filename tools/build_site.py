@@ -219,6 +219,8 @@ def format_entry(e):
     parts = ["%s. [%s](https://scholar.google.com/scholar?q=%s)." % (
         authors, link_title, query)]
     venue = tex2md(e.get("journal") or e.get("booktitle") or e.get("institution") or "")
+    if e["_type"] in ("phdthesis", "mastersthesis"):
+        venue = ("PhD" if e["_type"] == "phdthesis" else "MSc") + " thesis, " + tex2md(e.get("school", ""))
     if e["_type"] == "book":
         venue = tex2md(e.get("publisher", ""))
     details = ""
@@ -233,8 +235,9 @@ def format_entry(e):
     parts.append("%s." % e.get("year", "n.d."))
     if e.get("doi"):
         parts.append("[\\[doi\\]](https://doi.org/%s)" % e["doi"])
-    if e.get("url"):  # the bib's url field holds the preprint (arXiv/chemRxiv)
-        parts.append("[\\[preprint\\]](%s)" % e["url"])
+    if e.get("url"):  # the preprint (arXiv/chemRxiv); for a thesis, the thesis itself
+        label = "thesis" if e["_type"] in ("phdthesis", "mastersthesis") else "preprint"
+        parts.append("[\\[%s\\]](%s)" % (label, e["url"]))
     return " ".join(parts)
 
 
@@ -454,6 +457,7 @@ parts:
       - file: publications/conference
       - file: publications/books
       - file: publications/reports
+      - file: publications/theses
       - file: patents-industry
       - file: software
   - caption: Mentoring and Teaching
@@ -472,7 +476,8 @@ def main():
     sec = split_sections((cv_dir / TEX_NAME).read_text(encoding="utf-8"))
     bib = parse_bib((cv_dir / BIB_NAME).read_text(encoding="utf-8"))
     kw = lambda k: [e for e in bib if e.get("keywords", "").strip() == k]
-    journal, conference, books, reports = kw("article"), kw("conference"), kw("book"), kw("report")
+    journal, conference, books, reports, theses = (kw("article"), kw("conference"), kw("book"),
+                                                    kw("report"), kw("thesis"))
 
     pages = {
         "background.md": background_page(sec),
@@ -488,6 +493,9 @@ def main():
             "Books and Book Chapters", "Books and book chapters, newest first.", books, "books"),
         "publications/reports.md": publication_page(
             "Technical Reports", "Technical reports, newest first.", reports, "reports"),
+        "publications/theses.md": publication_page(
+            "Theses (Supervised)", "PhD and MSc theses of students in the group, newest first.",
+            theses, "theses"),
         "patents-industry.md": nested_page(
             "Patents, Technology Transfer, and Industry Collaborations", "",
             sec["PATENTS, TECHNOLOGY TRANSFER, AND INDUSTRY COLLABORATIONS"]),
@@ -510,6 +518,7 @@ def main():
         ["Conference Publications", "publications/conference", "%d peer-reviewed conference papers" % len(conference)],
         ["Books and Book Chapters", "publications/books", "%d books and chapters" % len(books)],
         ["Technical Reports", "publications/reports", "%d technical reports" % len(reports)],
+        ["Theses (Supervised)", "publications/theses", "%d PhD and MSc theses" % len(theses)],
         ["Patents and Industry", "patents-industry", "Patents and industry collaborators"],
         ["Software", "software", "Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl"],
         ["Research Mentoring", "mentoring", "%d postdocs and graduate students" % n_mentees],
@@ -524,8 +533,8 @@ def main():
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text.rstrip() + "\n", encoding="utf-8")
     (ROOT / "_toc.yml").write_text(TOC, encoding="utf-8")
-    print("Wrote %d pages: %d journal, %d conference, %d book, %d report entries"
-          % (len(pages), len(journal), len(conference), len(books), len(reports)))
+    print("Wrote %d pages: %d journal, %d conference, %d book, %d report, %d thesis entries"
+          % (len(pages), len(journal), len(conference), len(books), len(reports), len(theses)))
 
 
 if __name__ == "__main__":

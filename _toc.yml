@@ -13,6 +13,7 @@ parts:
       - file: publications/conference
       - file: publications/books
       - file: publications/reports
+      - file: publications/theses
       - file: patents-industry
       - file: software
   - caption: Mentoring and Teaching

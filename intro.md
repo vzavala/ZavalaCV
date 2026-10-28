@@ -65,6 +65,14 @@ Current and past grants
 5 technical reports
 :::
 
+:::{grid-item-card} Theses (Supervised)
+:link: publications/theses
+:link-type: doc
+:class-card: landing-card
+
+19 PhD and MSc theses
+:::
+
 :::{grid-item-card} Patents and Industry
 :link: patents-industry
 :link-type: doc
