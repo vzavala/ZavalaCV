@@ -115,4 +115,4 @@ Seminars and lectures by year
 
 ::::
 
-*Generated from the LaTeX CV on October 26, 2026.*
+*Generated from the LaTeX CV on October 28, 2026.*

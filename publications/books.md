@@ -13,7 +13,7 @@ Books and book chapters, newest first.
 (books-2024)=
 ## 2024 (1)
 
-1. S. Jiang, S. Qin, J.L. Pulsipher, and **V.M. Zavala**. [Convolutional neural networks: Basic concepts and applications in manufacturing](https://scholar.google.com/scholar?q=%22Convolutional+neural+networks%3A+Basic+concepts+and+applications+in+manufacturing%22). *Artificial Intelligence in Manufacturing*, 63–102, 2024. [\[doi\]](https://doi.org/10.1016/b978-0-323-99134-6.00007-4)
+1. S. Jiang, S. Qin, J.L. Pulsipher, and **V.M. Zavala**. [Convolutional neural networks: Basic concepts and applications in manufacturing](https://scholar.google.com/scholar?q=%22Convolutional+neural+networks%3A+Basic+concepts+and+applications+in+manufacturing%22). *Artificial Intelligence in Manufacturing*, 63–102, 2024. [\[doi\]](https://doi.org/10.1016/b978-0-323-99134-6.00007-4) [\[preprint\]](https://arxiv.org/abs/2210.07848)
 
 (books-2020)=
 ## 2020 (1)
@@ -28,7 +28,7 @@ Books and book chapters, newest first.
 (books-2018)=
 ## 2018 (1)
 
-1. S. Shin and **V.M. Zavala**. [Multi-Grid Schemes for Multi-Scale Coordination of Energy Systems](https://scholar.google.com/scholar?q=%22Multi-Grid+Schemes+for+Multi-Scale+Coordination+of+Energy+Systems%22). *Energy Markets and Responsive Grids*, 195–222, 2018. [\[doi\]](https://doi.org/10.1007/978-1-4939-7822-9_9)
+1. S. Shin and **V.M. Zavala**. [Multi-Grid Schemes for Multi-Scale Coordination of Energy Systems](https://scholar.google.com/scholar?q=%22Multi-Grid+Schemes+for+Multi-Scale+Coordination+of+Energy+Systems%22). *Energy Markets and Responsive Grids*, 195–222, 2018. [\[doi\]](https://doi.org/10.1007/978-1-4939-7822-9_9) [\[preprint\]](https://arxiv.org/abs/2002.10680)
 
 (books-2016)=
 ## 2016 (3)
