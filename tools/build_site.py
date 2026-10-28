@@ -367,6 +367,11 @@ def teaching_page(sec):
             rows.append([m.group(1).rstrip(":"), terms, str(len(terms.split(",")))])
     lines = ["# Teaching", "", "Courses taught at UW-Madison.", ""]
     lines += table(["Course", "Semesters", "Times taught"], rows)
+    if "ONLINE EDUCATIONAL RESOURCES" in sec:
+        lines += ["", "## Online Educational Resources", ""]
+        for n in parse_items(sec["ONLINE EDUCATIONAL RESOURCES"]):
+            m = re.match(r"(.+?):\s*(.*?)\s*<(.+?)>", n["md"])
+            lines.append("- **[%s](%s)**: %s" % (m.group(1), m.group(3), m.group(2)) if m else "- " + n["md"])
     return "\n".join(lines) + "\n"
 
 
@@ -522,7 +527,7 @@ def main():
         ["Patents and Industry", "patents-industry", "Patents and industry collaborators"],
         ["Software", "software", "Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl"],
         ["Research Mentoring", "mentoring", "%d postdocs and graduate students" % n_mentees],
-        ["Teaching", "teaching", "Courses taught at UW-Madison"],
+        ["Teaching", "teaching", "Courses taught at UW-Madison and online educational resources"],
         ["Community Activities", "service", "Editorial boards, leadership and conference organization"],
         ["Invited Talks", "talks", "Seminars and lectures by year"],
     ]

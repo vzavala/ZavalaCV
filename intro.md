@@ -102,7 +102,7 @@ Open-source tools such as Plasmo.jl, MadNLP.jl and InfiniteOpt.jl
 :link-type: doc
 :class-card: landing-card
 
-Courses taught at UW-Madison
+Courses taught at UW-Madison and online educational resources
 :::
 
 :::{grid-item-card} Community Activities
