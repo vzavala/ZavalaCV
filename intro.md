@@ -2,7 +2,7 @@
 
 **Baldovin-DaPra Professor** · Department of Chemical and Biological Engineering · University of Wisconsin-Madison
 
-[Email](mailto:victor.zavala@wisc.edu) · [Lab website](http://zavalab.engr.wisc.edu) · [Google Scholar](https://scholar.google.com/citations?user=a3mvK3gAAAAJ) · [ORCID](https://orcid.org/0000-0002-5744-7378) · **[Full CV (PDF)](https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91)**
+[Email](mailto:victor.zavala@wisc.edu) · [Lab website](http://zavalab.engr.wisc.edu) · [Google Scholar](https://scholar.google.com/citations?user=a3mvK3gAAAAJ) · [ORCID](https://orcid.org/0000-0002-5744-7378) · **[Full CV (PDF)](https://vzavala.github.io/ZavalaCV/Zavala_Victor_cv.pdf)**
 
 This site is a navigator for my curriculum vitae: the full CV is long, so it is split into short pages. Pick a section below, use the sidebar, or search (press `/`).
 

@@ -26,5 +26,6 @@ html:
 sphinx:
   config:
     html_show_sourcelink: false
+    html_extra_path: [extra]
     html_theme_options:
       show_toc_level: 2

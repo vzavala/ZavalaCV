@@ -24,7 +24,7 @@ BIB_NAME = "MyPublicationsvz.bib"
 MY_NAME = "**V.M. Zavala**"
 SCHOLAR_PROFILE = "https://scholar.google.com/citations?user=a3mvK3gAAAAJ"
 ORCID = "https://orcid.org/0000-0002-5744-7378"
-CV_PDF_URL = "https://uwmadison.box.com/s/3ovzh5e66iscw0svy9dnbdymcd7bsn91"  # Box link on the lab People page
+CV_PDF_URL = "https://vzavala.github.io/ZavalaCV/Zavala_Victor_cv.pdf"  # public copy built by tools/build_public_pdf.py
 
 
 # ---------------------------------------------------------------- LaTeX text
