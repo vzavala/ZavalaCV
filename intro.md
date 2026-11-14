@@ -38,7 +38,7 @@ Current and past grants
 :link-type: doc
 :class-card: landing-card
 
-219 articles, grouped by year
+220 articles, grouped by year
 :::
 
 :::{grid-item-card} Conference Publications
