@@ -38,7 +38,7 @@ Current and past grants
 :link-type: doc
 :class-card: landing-card
 
-218 articles, grouped by year
+219 articles, grouped by year
 :::
 
 :::{grid-item-card} Conference Publications
@@ -123,4 +123,4 @@ Seminars and lectures by year
 
 ::::
 
-*Generated from the LaTeX CV on October 28, 2026.*
+*Generated from the LaTeX CV on November 14, 2026.*

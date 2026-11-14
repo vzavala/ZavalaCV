@@ -2,11 +2,12 @@
 
 Peer-reviewed journal articles, newest first. Each title links to a Google Scholar search for the paper.
 
-**218 publications.** Jump to a year: {ref}`2027 <journal-2027>` · {ref}`2026 <journal-2026>` · {ref}`2025 <journal-2025>` · {ref}`2024 <journal-2024>` · {ref}`2023 <journal-2023>` · {ref}`2022 <journal-2022>` · {ref}`2021 <journal-2021>` · {ref}`2020 <journal-2020>` · {ref}`2019 <journal-2019>` · {ref}`2018 <journal-2018>` · {ref}`2017 <journal-2017>` · {ref}`2016 <journal-2016>` · {ref}`2014 <journal-2014>` · {ref}`2013 <journal-2013>` · {ref}`2012 <journal-2012>` · {ref}`2011 <journal-2011>` · {ref}`2010 <journal-2010>` · {ref}`2009 <journal-2009>` · {ref}`2008 <journal-2008>` · {ref}`2006 <journal-2006>` · {ref}`2005 <journal-2005>`
+**219 publications.** Jump to a year: {ref}`2027 <journal-2027>` · {ref}`2026 <journal-2026>` · {ref}`2025 <journal-2025>` · {ref}`2024 <journal-2024>` · {ref}`2023 <journal-2023>` · {ref}`2022 <journal-2022>` · {ref}`2021 <journal-2021>` · {ref}`2020 <journal-2020>` · {ref}`2019 <journal-2019>` · {ref}`2018 <journal-2018>` · {ref}`2017 <journal-2017>` · {ref}`2016 <journal-2016>` · {ref}`2014 <journal-2014>` · {ref}`2013 <journal-2013>` · {ref}`2012 <journal-2012>` · {ref}`2011 <journal-2011>` · {ref}`2010 <journal-2010>` · {ref}`2009 <journal-2009>` · {ref}`2008 <journal-2008>` · {ref}`2006 <journal-2006>` · {ref}`2005 <journal-2005>`
 
 (journal-2027)=
-## 2027 (1)
+## 2027 (2)
 
+1. J.C. Flory, A. Mukherjee, P.J. Dauenhauer, and **V.M. Zavala**. [Computing optimal programs for programmable catalysts using Bayesian optimization](https://scholar.google.com/scholar?q=%22Computing+optimal+programs+for+programmable+catalysts+using+Bayesian+optimization%22). *Computers and Chemical Engineering* 216:109919, 2027. [\[doi\]](https://doi.org/10.1016/j.compchemeng.2026.109919) [\[preprint\]](https://doi.org/10.26434/chemrxiv.15004492/v1)
 1. A. Mukherjee, T.A. Soderstrom, M.J. Kurtz, and **V.M. Zavala**. [Topological data analysis for high-dimensional dynamic process monitoring](https://scholar.google.com/scholar?q=%22Topological+data+analysis+for+high-dimensional+dynamic+process+monitoring%22). *Computers and Chemical Engineering* 216:109883, 2027. [\[doi\]](https://doi.org/10.1016/j.compchemeng.2026.109883) [\[preprint\]](https://arxiv.org/abs/2606.20443)
 
 (journal-2026)=
